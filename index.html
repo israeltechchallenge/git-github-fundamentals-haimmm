@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="main-cointainer">
+
+    <nav class="bold bg-white">
+      <a class="title accentBlue" href="#">SaaS Kit</a>
+      <div class="profile-container">
+        <img class="profile-pic" src="./images/profile.png" alt="profile-picture">
+        <p class="user-info">
+          <span class="user-name">Sierra Ferguson</span><br>
+          <span class="user-email grey">s.ferguson@gmail.com</span>
+        </p>
+      </div>
+      <div class="dashboard">
+        <img src="./images/dashboard.svg" alt="dashboard">
+        <a class="accentBlue" href="#">Dashboard</a>
+      </div>
+      <div class="tasks-link">
+        <img src="./images/tasks.svg" alt="tasks">
+        <a href="#">Tasks</a>
+      </div>
+      <div class="email">
+        <img src="./images/email.svg" alt="email">
+        <a href="#">Email</a>
+      </div>
+      <div class="contacts">
+        <img src="./images/contacts.svg" alt="contacts">
+        <a href="#">Contacts</a>
+      </div>
+      <div class="chat">
+        <img src="./images/chat.svg" alt="chat">
+        <a href="#">Chat</a>
+      </div>
+      <div class="deals-link">
+        <img src="./images/deals.svg" alt="deals">
+        <a href="#">Deals</a>
+      </div>
+      <div class="settings">
+        <img src="./images/settings.svg" alt="settings">
+        <a href="#">Settings</a>
+      </div>
+      <div class="toggle">
+        <img src="./images/toggle.svg" alt="toggle">
+        <a class="grey" href="#">Toggle sidebar</a>
+      </div>
+    </nav>
+
+    <div class="search-bar bg-white">
+      <img src="./images/search.svg" alt="search">
+      <textarea name="textbox" rows="1" cols="145" placeholder="Global search"></textarea>
+      <img src="./images/notifications.svg" alt="notifications">
+    </div>
+
+    <div class="tasks rounded-border bg-white">
+      <span class="finished-tasks bold">8 tasks completed out of 10</span>
+      <div class="time-select">
+        <span>Show: </span>
+        <select class="accentBlue">
+          <option value="This day">This day</option>
+          <option value="This week" selected="selected">This week</option>
+          <option value="This month">This month</option>
+          <option value="This year">This year</option>
+        </select>
+      </div>
+
+
+      <div class="progress-bar rounded-border">
+        <div class="filled-progress-bar rounded-border"></div>
+      </div>
+      <p class="date bold">23 December, Sunday</p>
+      <table>
+        <tr class="bold">
+          <td>Sun</td>
+          <td class="accentBlue">Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+          <td>Sat</td>
+        </tr>
+        <tr>
+          <td><span class="cicrle-container">23</span></td>
+          <td class="accentBlue">24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+        </tr>
+      </table>
+
+      <div class="post">
+        <h3 class="bold">Send benefit review by Sunday</h3>
+        <span class="post-type bold grey">Reminder</span>
+        <p><span class="dead-line">Due date: </span>December 23, 2018</p>
+        <div class="poster">
+          <img class="poster-img" src="./images/george.png" alt="george">
+          <span class="poster-name">George Fields</span>
+          <img class="edit-icon" src="./images/edit.svg" alt="edit">
+          <img class="delete-icon" src="./images/delete.svg" alt="delete">
+          <button class="complete-btn rounded-border bold" type="button" name="button">Completed</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <h3 class="bold">Invite to office meet-up</h3>
+        <span class="post-type bold grey">Call</span>
+        <p><span class="dead-line">Due date: </span>December 23, 2018</p>
+        <div class="poster">
+          <img class="poster-img" src="./images/rebecca.png" alt="rebecca">
+          <span class="poster-name">Rebecca Moore</span>
+          <img class="edit-icon" src="./images/edit.svg" alt="edit">
+          <img class="delete-icon" src="./images/delete.svg" alt="delete">
+          <button class="end-btn rounded-border bold" type="button" name="button">Ended</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <h3 class="bold">Office meet-up</h3>
+        <span class="post-type bold grey">Event</span>
+        <p><span class="dead-line">Due date: </span>December 23, 2018</p>
+        <div class="poster">
+          <img class="poster-img" src="./images/lindsey.png" alt="lindsey">
+          <span class="poster-name">Lindsey Stroud</span>
+          <img class="edit-icon" src="./images/edit.svg" alt="edit">
+          <img class="delete-icon" src="./images/delete.svg" alt="delete">
+          <button class="complete-btn rounded-border bold" type="button" name="button">Completed</button>
+        </div>
+      </div>
+
+      <a class="accentBlue" href="#">Show more</a>
+    </div>
+
+
+    <div class="deals rounded-border bg-white">
+      <p class="charts-title bold">Deals</p>
+      <div class="time-select">
+        <span>Show: </span>
+        <select class="accentBlue">
+          <option value="This day">Daily</option>
+          <option value="This week">Weekly</option>
+          <option value="This month" selected="selected">Monthly</option>
+          <option value="This year">Yearly</option>
+        </select>
+      </div>
+      <ul>
+        <li>Closed Deals</li>
+      </ul>
+      <img src="./images/deals-graph.svg" alt="deals graph">
+    </div>
+
+    <div class="tasks-chart rounded-border bg-white">
+      <p class="charts-title bold">Tasks</p>
+      <div class="time-select">
+        <span>Show: </span>
+        <select class="accentBlue">
+          <option value="This day">This day</option>
+          <option value="This week">This week</option>
+          <option value="This month" selected="selected">This month</option>
+          <option value="This year">This year</option>
+        </select>
+      </div>
+      <div class="tasks-chart-container">
+        <img src="./images/tasks-chart.svg" alt="tasks chart">
+        <ul>
+          <li class="yellow">Active</li>
+          <li>Completed</li>
+          <li>Ended</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
